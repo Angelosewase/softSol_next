@@ -46,7 +46,6 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
-
         <div className="h-3 border-x bg-[repeating-linear-gradient(-45deg,var(--color-border),var(--color-border)_1px,transparent_1px,transparent_6px)]"></div>
         <form action="" className="border px-4 py-12 lg:px-0 lg:py-24">
           <Card className="mx-auto max-w-lg p-8 sm:p-16">
