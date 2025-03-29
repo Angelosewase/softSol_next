@@ -10,76 +10,76 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
     {
-        name: 'Jonathan Yombo',
-        role: 'Software Engineer',
+        name: 'David Chen',
+        role: 'CTO, FinTech Solutions Inc.',
         image: 'https://randomuser.me/api/portraits/men/1.jpg',
-        quote: 'Tailus is really extraordinary and very practical, no need to break your head. A real gold mine.',
+        quote: 'Their development team delivered our blockchain-based payment platform ahead of schedule. The scalable architecture handles 100K+ daily transactions flawlessly, and their security implementation passed all regulatory audits.',
     },
     {
-        name: 'Yves Kalume',
-        role: 'GDE - Android',
-        image: 'https://randomuser.me/api/portraits/men/6.jpg',
-        quote: 'With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to Tailus.',
+        name: 'Sarah Martinez',
+        role: 'VP of Technology, E-commerce Giant',
+        image: 'https://randomuser.me/api/portraits/women/2.jpg',
+        quote: "The microservices architecture they implemented increased our platform's reliability to 99.99%. Our order processing speed improved by 60%, and the new AI-powered recommendation engine boosted sales by 35%.",
     },
     {
-        name: 'Yucel Faruksahan',
-        role: 'Tailkits Creator',
-        image: 'https://randomuser.me/api/portraits/men/7.jpg',
-        quote: 'Great work on tailfolio template. This is one of the best personal website that I have seen so far :)',
+        name: 'Dr. James Wilson',
+        role: 'CIO, Metropolitan Healthcare',
+        image: 'https://randomuser.me/api/portraits/men/3.jpg',
+        quote: 'Their HIPAA-compliant patient management system revolutionized our operations. The AI-assisted diagnosis support has improved accuracy by 40%, while the integrated telehealth platform handled 50,000+ consultations last quarter.',
     },
     {
-        name: 'Anonymous author',
-        role: 'Doing something',
-        image: 'https://randomuser.me/api/portraits/men/8.jpg',
-        quote: 'I am really new to Tailwind and I want to give a go to make some page on my own. I searched a lot of hero pages and blocks online. However, most of them are not giving me a clear view or needed some HTML/CSS coding background to make some changes from the original or too expensive to have. I downloaded the one of Tailus template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page.',
+        name: 'Emily Thompson',
+        role: 'COO, Global Logistics Ltd',
+        image: 'https://randomuser.me/api/portraits/women/4.jpg',
+        quote: 'The real-time fleet management system they built reduced our operational costs by 30%. The predictive maintenance module has prevented 150+ potential breakdowns, and the route optimization saved 25% in fuel costs.',
     },
     {
-        name: 'Shekinah Tshiokufila',
-        role: 'Senior Software Engineer',
-        image: 'https://randomuser.me/api/portraits/men/4.jpg',
-        quote: 'Tailus is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it. I can only recommend this incredible wonder.',
-    },
-    {
-        name: 'Oketa Fred',
-        role: 'Fullstack Developer',
-        image: 'https://randomuser.me/api/portraits/men/2.jpg',
-        quote: 'I absolutely love Tailus! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze.',
-    },
-    {
-        name: 'Zeki',
-        role: 'Founder of ChatExtend',
+        name: 'Robert Yamamoto',
+        role: 'CTO, Smart Manufacturing Co.',
         image: 'https://randomuser.me/api/portraits/men/5.jpg',
-        quote: "Using TailsUI has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.",
+        quote: 'Their IIoT platform connected 1000+ sensors across our facilities, reducing downtime by 45%. The predictive analytics dashboard has helped prevent $2M in potential equipment failures this year alone.',
     },
     {
-        name: 'Joseph Kitheka',
-        role: 'Fullstack Developer',
+        name: 'Lisa Anderson',
+        role: 'Head of Digital Innovation, RetailTech',
+        image: 'https://randomuser.me/api/portraits/women/6.jpg',
+        quote: 'The omnichannel retail solution they developed increased our online-to-offline conversion by 80%. Their custom inventory management system reduced stockouts by 60% while optimizing warehouse space utilization.',
+    },
+    {
+        name: 'Michael O\'Brien',
+        role: 'CIO, EduTech Innovations',
+        image: 'https://randomuser.me/api/portraits/men/7.jpg',
+        quote: 'Their learning management system supports 100,000+ concurrent users with 99.9% uptime. The AI-powered assessment module has reduced grading time by 75% while improving accuracy.',
+    },
+    {
+        name: 'Jennifer Lee',
+        role: 'VP Engineering, InsurTech Leader',
+        image: 'https://randomuser.me/api/portraits/women/8.jpg',
+        quote: 'The claims processing automation they implemented reduced processing time from 5 days to 2 hours. Their fraud detection system has saved us $5M annually with 95% accuracy.',
+    },
+    {
+        name: 'Carlos Rodriguez',
+        role: 'Director of IT, Energy Solutions',
         image: 'https://randomuser.me/api/portraits/men/9.jpg',
-        quote: 'Tailus has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow. The flexibility to customize every aspect allows me to create unique user experiences. Tailus is a game-changer for modern web development!',
+        quote: 'Their smart grid management system improved our energy distribution efficiency by 40%. The real-time monitoring platform has helped prevent 200+ potential outages this year.',
     },
     {
-        name: 'Khatab Wedaa',
-        role: 'MerakiUI Creator',
-        image: 'https://randomuser.me/api/portraits/men/10.jpg',
-        quote: "Tailus is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project.",
+        name: 'Anna Kowalski',
+        role: 'CTO, AgriTech Innovations',
+        image: 'https://randomuser.me/api/portraits/women/10.jpg',
+        quote: 'The precision farming platform they developed increased crop yields by 35%. Their IoT sensor network and predictive analytics have reduced water usage by 40% while optimizing fertilizer application.',
     },
     {
-        name: 'Rodrigo Aguilar',
-        role: 'TailwindAwesome Creator',
+        name: 'Thomas Schmidt',
+        role: 'Head of Operations, Smart City Solutions',
         image: 'https://randomuser.me/api/portraits/men/11.jpg',
-        quote: 'I love Tailus ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time.',
+        quote: 'Their integrated city management platform reduced emergency response times by 50%. The AI-powered traffic management system has decreased congestion by 30% in peak hours.',
     },
     {
-        name: 'Eric Ampire',
-        role: 'Mobile Engineer at @BRPNews • @GoogleDevExpert for Android',
-        image: 'https://randomuser.me/api/portraits/men/12.jpg',
-        quote: 'Tailus templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience. The templates are easy to use, customizable, and responsive, and the support team is always available to help. I highly recommend Tailus templates to anyone who is looking to create a website.',
-    },
-    {
-        name: 'Roland Tubonge',
-        role: 'Software Engineer',
-        image: 'https://randomuser.me/api/portraits/men/13.jpg',
-        quote: 'Tailus is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!',
+        name: 'Maria Garcia',
+        role: 'Director of Digital, Media Corp',
+        image: 'https://randomuser.me/api/portraits/women/12.jpg',
+        quote: 'Their content delivery platform handles 10M+ daily users seamlessly. The personalization engine increased user engagement by 45%, and the recommendation system boosted content discovery by 60%.',
     },
 ]
 
@@ -95,12 +95,12 @@ const testimonialChunks = chunkArray(testimonials, Math.ceil(testimonials.length
 
 export default function WallOfLoveSection() {
     return (
-        <section>
+        <section id='testimonials'>
             <div className="py-16 md:py-32">
                 <div className="mx-auto max-w-6xl px-6">
                     <div className="text-center">
-                        <h2 className="text-title text-3xl font-semibold">Loved by the Community</h2>
-                        <p className="text-body mt-6">Harum quae dolore orrupti aut temporibus ariatur.</p>
+                        <h2 className="text-title text-3xl font-semibold">Trusted by Industry Leaders</h2>
+                        <p className="text-body mt-6">See how we&apos;ve helped organizations across industries achieve their digital transformation goals.</p>
                     </div>
                     <div className="mt-8 grid gap-3 sm:grid-cols-2 md:mt-12 lg:grid-cols-3">
                         {testimonialChunks.map((chunk, chunkIndex) => (

@@ -1,3 +1,5 @@
+"use client";
+
 import CallToAction from "@/components/call-to-action";
 import ContentSection from "@/components/content-2";
 import FAQs from "@/components/faqs";
@@ -8,8 +10,9 @@ import Pricing from "@/components/pricing";
 import StatsSection from "@/components/stats-4";
 import TestimonialsSection from "@/components/testimonials";
 export default function Home() {
+  //implement animation on navigation to a section by id 
   return (
-    <div>
+    <div className="">
       <HeroSection />
       <ContentSection />
       <FeaturesSection />

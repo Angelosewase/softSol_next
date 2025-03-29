@@ -4,27 +4,27 @@ import Link from 'next/link'
 const links = [
     {
         title: 'Features',
-        href: '#',
+        href: '#services',
     },
     {
         title: 'Solution',
-        href: '#',
+        href: '#services',
     },
     {
         title: 'Customers',
-        href: '#',
+        href: '#testimonials',
     },
     {
         title: 'Pricing',
-        href: '#',
+        href: '#pricing',
     },
     {
         title: 'Help',
-        href: '#',
+        href: '#help',
     },
     {
         title: 'About',
-        href: '#',
+        href: '#content',
     },
 ]
 
@@ -77,7 +77,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                 </div>
-                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} Tailus UI, All rights reserved</span>
+                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} Soft sol , All rights reserved</span>
             </div>
         </footer>
     )

@@ -1,6 +1,6 @@
 export default function FAQs() {
     return (
-        <section className="scroll-py-16 py-16 md:scroll-py-32 md:py-32">
+        <section className="scroll-py-16 py-16 md:scroll-py-32 md:py-32" id="help">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="grid gap-y-12 px-2 lg:[grid-template-columns:1fr_auto]">
                     <div className="text-center lg:text-left">
@@ -8,35 +8,44 @@ export default function FAQs() {
                             Frequently <br className="hidden lg:block" /> Asked <br className="hidden lg:block" />
                             Questions
                         </h2>
-                        <p>Accusantium quisquam. Illo, omnis?</p>
+                        <p>Common questions about our software development services</p>
                     </div>
 
                     <div className="divide-y divide-dashed sm:mx-auto sm:max-w-lg lg:mx-0">
                         <div className="pb-6">
-                            <h3 className="font-medium">What is the refund policy?</h3>
-                            <p className="text-muted-foreground mt-4">We offer a 30-day money back guarantee. If you are not satisfied with our product, you can request a refund within 30 days of your purchase.</p>
+                            <h3 className="font-medium">What is your software development process?</h3>
+                            <p className="text-muted-foreground mt-4">Our development process follows an agile methodology with iterative development cycles to ensure quality and flexibility.</p>
 
                             <ol className="list-outside list-decimal space-y-2 pl-4">
-                                <li className="text-muted-foreground mt-4">To request a refund, please contact our support team with your order number and reason for the refund.</li>
-                                <li className="text-muted-foreground mt-4">Refunds will be processed within 3-5 business days.</li>
-                                <li className="text-muted-foreground mt-4">Please note that refunds are only available for new customers and are limited to one per customer.</li>
+                                <li className="text-muted-foreground mt-4">Discovery and planning phase to understand your requirements</li>
+                                <li className="text-muted-foreground mt-4">Design and architecture development</li>
+                                <li className="text-muted-foreground mt-4">Iterative development with regular client feedback</li>
+                                <li className="text-muted-foreground mt-4">Quality assurance and testing</li>
+                                <li className="text-muted-foreground mt-4">Deployment and post-launch support</li>
                             </ol>
                         </div>
                         <div className="py-6">
-                            <h3 className="font-medium">How do I cancel my subscription?</h3>
-                            <p className="text-muted-foreground mt-4">You can cancel your subscription at any time by logging into your account and clicking on the cancel button.</p>
+                            <h3 className="font-medium">How long does it take to develop a custom software solution?</h3>
+                            <p className="text-muted-foreground mt-4">Project timelines vary based on complexity and scope. Simple applications may take 2-3 months, while enterprise-level solutions can take 6+ months. We provide detailed timelines during the initial consultation.</p>
                         </div>
                         <div className="py-6">
-                            <h3 className="font-medium">Can I upgrade my plan?</h3>
-                            <p className="text-muted-foreground my-4">Yes, you can upgrade your plan at any time by logging into your account and selecting the plan you want to upgrade to.</p>
+                            <h3 className="font-medium">What technologies do you specialize in?</h3>
+                            <p className="text-muted-foreground my-4">We have expertise in a wide range of technologies to meet diverse client needs:</p>
                             <ul className="list-outside list-disc space-y-2 pl-4">
-                                <li className="text-muted-foreground">You will be charged the difference in price between your current plan and the plan you are upgrading to.</li>
-                                <li className="text-muted-foreground">Your new plan will take effect immediately and you will be billed at the new rate on your next billing cycle.</li>
+                                <li className="text-muted-foreground">Frontend: React, Angular, Vue.js, Next.js</li>
+                                <li className="text-muted-foreground">Backend: Node.js, Python, Java, .NET</li>
+                                <li className="text-muted-foreground">Mobile: React Native, Flutter, Swift, Kotlin</li>
+                                <li className="text-muted-foreground">Database: SQL, NoSQL, GraphQL</li>
+                                <li className="text-muted-foreground">Cloud: AWS, Azure, Google Cloud</li>
                             </ul>
                         </div>
                         <div className="py-6">
-                            <h3 className="font-medium">Do you offer phone support?</h3>
-                            <p className="text-muted-foreground mt-4">We do not offer phone support at this time. However, you can contact us via email or live chat for any questions or concerns you may have.</p>
+                            <h3 className="font-medium">Do you provide maintenance and support after launch?</h3>
+                            <p className="text-muted-foreground mt-4">Yes, we offer flexible maintenance and support packages to ensure your software remains secure, up-to-date, and optimized. Our support includes bug fixes, security updates, performance optimization, and feature enhancements.</p>
+                        </div>
+                        <div className="py-6">
+                            <h3 className="font-medium">How do you handle project pricing?</h3>
+                            <p className="text-muted-foreground mt-4">We offer several pricing models including fixed-price, time and materials, and dedicated team arrangements. The best model depends on your project requirements, timeline, and budget constraints. We&apos;ll recommend the most suitable approach during our initial consultation.</p>
                         </div>
                     </div>
                 </div>

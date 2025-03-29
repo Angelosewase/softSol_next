@@ -13,10 +13,11 @@ import { ArrowRight, Menu, Rocket, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 const menuItems = [
-    { name: 'Features', href: '#' },
-    { name: 'Solution', href: '#' },
-    { name: 'Pricing', href: '#' },
-    { name: 'About', href: '#' },
+    { name: 'Services', href: '#services' },
+    { name: 'FAQs', href: '#help' },
+    { name: 'Case Studies', href: '#testimonials' },
+    { name: 'Pricing', href: '#pricing' },
+    { name: 'About', href: '#content' },
 ]
 
 export default function HeroSection() {
@@ -53,14 +54,9 @@ export default function HeroSection() {
                                 </div>
 
                                 <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
-                                    <Button asChild variant="outline" size="sm">
-                                        <Link href="#">
-                                            <span>Login</span>
-                                        </Link>
-                                    </Button>
                                     <Button asChild size="sm">
                                         <Link href="#">
-                                            <span>Login</span>
+                                            <span>Get started now !</span>
                                         </Link>
                                     </Button>
                                 </div>
@@ -76,17 +72,17 @@ export default function HeroSection() {
                             <div className="text-center sm:mx-auto sm:w-10/12 lg:mr-auto lg:mt-0 lg:w-4/5">
                                 <Link href="/" className="rounded-(--radius) mx-auto flex w-fit items-center gap-2 border p-1 pr-3">
                                     <span className="bg-muted rounded-[calc(var(--radius)-0.25rem)] px-2 py-1 text-xs">New</span>
-                                    <span className="text-sm">Introduction Tailus UI Html</span>
+                                    <span className="text-sm">Introducing  Soft sol </span>
                                     <span className="bg-(--color-border) block h-4 w-px"></span>
 
                                     <ArrowRight className="size-4" />
                                 </Link>
 
                                 <h1 className="mt-8 text-4xl font-semibold md:text-5xl xl:text-5xl xl:[line-height:1.125]">
-                                    Tame the Wild West <br /> of Frontend Development
+                                    Expert Software <br /> Development Solutions
                                 </h1>
-                                <p className="mx-auto mt-8 hidden max-w-2xl text-wrap text-lg sm:block">Tailwindcss highly customizable components for building modern websites and applications that look and feel the way you mean it.</p>
-                                <p className="mx-auto mt-6 max-w-2xl text-wrap sm:hidden">Highly customizable components for building modern websites and applications, with your personal spark.</p>
+                                <p className="mx-auto mt-8 hidden max-w-2xl text-wrap text-lg sm:block">Enterprise-grade software development services that transform your business challenges into powerful, scalable applications built with cutting-edge technology.</p>
+                                <p className="mx-auto mt-6 max-w-2xl text-wrap sm:hidden">Custom software solutions engineered to solve complex business challenges and drive digital transformation.</p>
 
                                 <div className="mt-8">
                                     <Button size="lg" asChild>
